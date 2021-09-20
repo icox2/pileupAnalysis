@@ -115,7 +115,7 @@ for entryNum in range(0,tree.GetEntries()):
         test_label.append(np.array([0]))
         test_data.append(np.zeros(500))
         continue
-    elif len(noBase)>= length:
+    elif len(noBase)> length:
         #print("Test Data Traces are long.  Removing end")
         del noBase[length:]
         test_label.append(np.array([2]))
